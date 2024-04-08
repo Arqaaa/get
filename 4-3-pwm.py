@@ -3,9 +3,9 @@ import time
 
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(9, GPIO.OUT)
+GPIO.setup(21, GPIO.OUT)
 
-pwm =GPIO.PWM(9,100)
+pwm =GPIO.PWM(21,100)
 
 try:
     pwm.start(0)
